@@ -1,0 +1,15 @@
+<head>
+<meta http-equiv="refresh" content="10">  
+</head>
+<!-- Take :
+* AfileName
+For forms the returned dic is {name: value}
+-->
+<body>
+<h1>hello</h1>
+<img src="{{ url_for('di', filename=AfileName) }}">
+
+<p>
+	<a href="/serve-file/{{AfileName}}" target="blank"><button >Download</button></a>
+</p>
+</body>
